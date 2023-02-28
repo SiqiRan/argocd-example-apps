@@ -6,6 +6,7 @@ replicaCount: 1
 
 image:
   repository: hekai/gcr.io_heptio-images_ks-guestbook-demo_0.2
+  tag: latest
   pullPolicy: IfNotPresent
 
 service:
